@@ -1,6 +1,9 @@
+import numpy as np
 
-list = [1,2,3,4,5]
 
-exc = list.pop(1)
+frutas = np.array([1, 2, 3])
 
-print(exc)
+
+legumes = np.array([4, 5, 6])
+
+print(frutas + legumes)
